@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n><!-- DK oversættelse:Michaelbjerg21978(mb-mods.dk) -->
+	<!-- Note that 'description' is only here for easier translations. It needs to be manually copied to ModDesc.XML later. -->
+	<description><![CDATA[Adds the specialization for adaptive keyboard steering]]></description>
+
+	<texts>
+		<text name="vcaCAMERAI"         text="Kamera Rotation Indenfor"/>
+		<text name="vcaCAMERAO"         text="Kamera Rotation Udenfor"/>
+		<text name="vcaEXPONENT"        text="Følsomhed"/>
+		<text name="vcaSTEERING"        text="Adaptiv Styring"/>
+		<text name="vcaSHUTTLE"         text="Vendegear"/>
+		<text name="vcaREVERSEI"        text="Kig bagud (indenfor)"/>
+		<text name="vcaREVERSEO"        text="Kig bagud (udenfor)"/>
+		<text name="vcaLIMIT"           text="Speeder Begrænsning"/>
+		<text name="vcaPEEKLR"          text="Kig Sidelæns"/>
+		<text name="vcaANGLE"           text="Lås Vinkel"/>
+		<text name="vcaBRAKE"           text="Lav Bremse Kraft"/>
+		<text name="vcaTRANSMISSION"    text="Gearkasse"/>
+		<text name="vcaMAXSPEED"        text="MAX Fart"/>
+		<text name="vcaLIMSPEED"        text="Fart Begrænsning"/>
+		<text name="vcaAUTOSHIFT"       text="Automatisk"/>
+		<text name="vcaLAUNCH"          text="Start Gear"/>
+		<text name="vcaKEEPSPEED"       text="Hold farten Permanent"/>
+		<text name="vcaSETTINGS"        text="Indstillinger"/>
+		                                
+		<text name="vca_tip_CAMERAI"    text="Kameraet indenfor roterer automatisk i forhold til rat vinklen"/>
+		<text name="vca_tip_CAMERAO"    text="Kameraet udenfor roterer automatisk i forhold til rat vinklen"/>
+		<text name="vca_tip_EXPONENT"   text="Følsomhed af den apdaptive styring i forhold til hastighed"/>
+		<text name="vca_tip_STEERING"   text="Den apdaptive styring justerer den automatiske rotation bagud og den maksimale styre vinkel"/>
+		<text name="vca_tip_SHUTTLE"    text="Ændrer køre retning med <mellemrum>"/>
+		<text name="vca_tip_REVERSEI"   text="Hvis køretøjet ændrer retning så roterer kameraet indenfor 180°"/>
+		<text name="vca_tip_REVERSEO"   text="Hvis køretøjet ændrer retning så roterer kameraet udenfor 180°"/>		
+		<text name="vca_tip_LIMIT"      text="Begrænsning af speeder med og uden venstre shift tast"/>
+		<text name="vca_tip_PEEKLR"     text="Kig hurtigt med højre shift key og højre/venstre tast"/>
+		<text name="vca_tip_ANGLE"      text="Styr automatisk for at følge den låste retning"/>
+		<text name="vca_tip_BRAKE"      text="Procent for lav bremse kraft, aka rullende modstand"/>
+		<text name="vca_tip_TRANSMISSION" text="Type af Gearkasser; IVT variable gearkasse, alle andre gearkasser har 12 forskellige gear, 2x6 er bedst til lastbiler"/>
+		<text name="vca_tip_MAXSPEED"   text="Maximum fart af højeste gear, kan være højere end køretøjets max fart"/>
+		<text name="vca_tip_LIMSPEED"   text="Begrænser max farten til standard på køretøjet"/>
+		<text name="vca_tip_AUTOSHIFT"  text="Automatisk skift af gear og gruppe"/>
+		<text name="vca_tip_LAUNCH"     text="Nominel hastighed af start gearet"/>
+		<text name="vca_tip_KEEPSPEED"  text="Hvis permanent holdehastighed er aktiveret, så vil accelerationspedalen opfører sig som et joystick. Det er som at køre med fartpilot."/>
+		    
+		<text name="input_vcaSETTINGS"  text="VCA: indstillinger"/>
+		<text name="input_vcaUP"        text="VCA: skift syns retning / lås fremad"/>
+		<text name="input_vcaDOWN"      text="VCA: smugkig i anden retning / lås bagud"/>
+		<text name="input_vcaLEFT"      text="VCA: kig venstre"/>
+		<text name="input_vcaRIGHT"     text="VCA: kig højre"/>
+		<text name="input_vcaDIRECTION" text="VCA: skift køre retning"/>
+		<text name="input_vcaFORWARD"   text="VCA: fremad"/>
+		<text name="input_vcaREVERSE"   text="VCA: bak"/>
+		<text name="input_vcaSNAP"      text="VCA: lås køre retning"/>
+		<text name="input_vcaSNAPRESET" text="VCA: nulstil låst køre retning"/>		
+		<text name="input_vcaNO_ARB"    text="VCA: ingen auto rotering tilbage"/>
+		<text name="input_vcaINCHING"   text="VCA: krybning"/>
+		<text name="input_vcaKEEPSPEED" text="VCA: keep speed"/>
+		<text name="input_vcaSWAPSPEED" text="VCA: swap speed"/>
+		<text name="input_vcaGearUp"    text="VCA: gear op"/>
+		<text name="input_vcaGearDown"  text="VCA: gear ned"/>
+		<text name="input_vcaRangeUp"   text="VCA: gruppe op"/>
+		<text name="input_vcaRangeDown" text="VCA: gruppe ned"/>
+		<text name="input_vcaNeutral"   text="VCA: neutral til/fra"/>
+		<text name="input_vcaClutch"    text="VCA: kobling akse"/>
+		<text name="input_vcaShifter1"  text="VCA: G27/G29 gear 1"/>
+		<text name="input_vcaShifter2"  text="VCA: G27/G29 gear 2"/>
+		<text name="input_vcaShifter3"  text="VCA: G27/G29 gear 3"/>
+		<text name="input_vcaShifter4"  text="VCA: G27/G29 gear 4"/>
+		<text name="input_vcaShifter5"  text="VCA: G27/G29 gear 5 / gruppe ned"/>
+		<text name="input_vcaShifter6"  text="VCA: G27/G29 gear 6 / gruppe op"/>
+		<text name="input_vcaShifter7"  text="VCA: G27/G29 bak gear"/>
+		<text name="input_vcaShifterLH" text="VCA: G27/G29 gear splitter"/>
+	</texts>
+
+	<longTexts>
+		<longText name="vca_Help_1">
+<![CDATA[
+Dette script varierer styre hastighed afhængigt af den hastighed du kører med, og roterer kameraet til at matche styre vinkel og retning.
+
+SHift-Venstre begrænser speeder, fart pilot og maskimalt omdrejninger til 75%. Med Shift-Højre og venstre/højre tast kan du smugkigge i den valgte retning.
+
+Hvis du trykker på venstre Ctrl sammed med W så skifter køre retning til en låst retning.
+
+Alle funktioner kan slåes fra]]>
+		</longText>
+	</longTexts>
+</l10n>
