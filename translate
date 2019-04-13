@@ -9,9 +9,6 @@
 		<text name="vcaEXPONENT"        text="Følsomhed"/>
 		<text name="vcaSTEERING"        text="Adaptiv Styring"/>
 		<text name="vcaSHUTTLE"         text="Vendegear"/>
-		<text name="vcaAUTOCLUTCH"      text="Automatisk Kobling"/>
-		<text name="vcaDISTANCE"           text="Afstand"/>
-		<text name="vcaDRAWMARKER"           text="Tegn markør"/>
 		<text name="vcaREVERSEI"        text="Kig bagud (indenfor)"/>
 		<text name="vcaREVERSEO"        text="Kig bagud (udenfor)"/>
 		<text name="vcaLIMIT"           text="Speeder Begrænsning"/>
@@ -24,6 +21,7 @@
 		<text name="vcaAUTOSHIFT"       text="Automatisk"/>
 		<text name="vcaLAUNCH"          text="Start Gear"/>
 		<text name="vcaKEEPSPEED"       text="Hold farten Permanent"/>
+		<text name="vcaHANDTHROTTLE"    text="HåndGas"/>
 		<text name="vcaSETTINGS"        text="Indstillinger"/>
 		                                
 		<text name="vca_tip_CAMERAI"    text="Kameraet indenfor roterer automatisk i forhold til rat vinklen"/>
@@ -43,9 +41,7 @@
 		<text name="vca_tip_AUTOSHIFT"  text="Automatisk skift af gear og gruppe"/>
 		<text name="vca_tip_LAUNCH"     text="Nominel hastighed af start gearet"/>
 		<text name="vca_tip_KEEPSPEED"  text="Hvis permanent holdehastighed er aktiveret, så vil accelerationspedalen opfører sig som et joystick. Det er som at køre med fartpilot."/>
-		<text name="vca_tip_AUTOCLUTCH" text="Skift gear/gruppe uden brug af kobling"/>
-		<text name="vca_tip_DISTANCE"   text="Afstand til retning på vinkel"/>
-		<text name="vca_tip_DRAWMARKER"   text="Viser markør ved lås vinkel"/>
+		<text name="vca_tip_HANDTHROTTLE" text="The engine automatically accelerates to reach hand throttle RPM"/>
 		    
 		<text name="input_vcaSETTINGS"  text="VCA: indstillinger"/>
 		<text name="input_vcaUP"        text="VCA: skift syns retning / lås fremad"/>
@@ -57,6 +53,10 @@
 		<text name="input_vcaREVERSE"   text="VCA: bak"/>
 		<text name="input_vcaSNAP"      text="VCA: lås køre retning"/>
 		<text name="input_vcaSNAPRESET" text="VCA: nulstil låst køre retning"/>		
+		<text name="input_vcaSnapUP"    text="VCA: lås fremad"/>
+		<text name="input_vcaSnapDOWN"  text="VCA: lås bagud"/>
+		<text name="input_vcaSnapLEFT"  text="VCA: lås venstre"/>
+		<text name="input_vcaSnapRIGHT" text="VCA: lås højre"/>		
 		<text name="input_vcaNO_ARB"    text="VCA: ingen auto rotering tilbage"/>
 		<text name="input_vcaINCHING"   text="VCA: krybning"/>
 		<text name="input_vcaKEEPSPEED" text="VCA: keep speed"/>
@@ -75,6 +75,13 @@
 		<text name="input_vcaShifter6"  text="VCA: G27/G29 gear 6 / gruppe op"/>
 		<text name="input_vcaShifter7"  text="VCA: G27/G29 bak gear"/>
 		<text name="input_vcaShifterLH" text="VCA: G27/G29 gear splitter"/>
+		<!-- ny tekst start -->
+		<text name="vcaAUTOCLUTCH"      text="Automatisk Kobling"/>		
+		<text name="vcaDISTANCE"        text="Afstand"/>
+		<text name="vcaDRAWMARKER"      text="Linie Visning"/>
+		<text name="vca_tip_AUTOCLUTCH" text="Skift gear/gruppe uden brug af kobling"/>
+		<text name="vca_tip_DISTANCE"   text="Afstand til retning på vinkel"/>
+		<text name="vca_tip_DRAWMARKER"   text="Viser markør ved lås vinkel"/>		
 	</texts>
 
 	<longTexts>
