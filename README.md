@@ -1,2 +1,2 @@
 # hello-world
-This is my first repository on github.
+Dette er min første udgivelse på github.
